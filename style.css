@@ -1,0 +1,626 @@
+body {
+  margin: 0;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.gap-15{
+  gap: 15px;
+}
+
+.display-grid{
+  display: grid;
+}
+
+.section-innovation {
+  margin-left: 110px;
+  margin-right: 110px;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.section-innovation__header {
+  justify-content: space-between;
+  margin-top: 25px;
+  align-items: center;
+}
+
+.section-innovation__header__title {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  text-align: left;
+  margin: 0;
+}
+
+.section-innovation__header__nav {
+  gap: 21px;
+  margin: 0;
+  padding: 0;
+}
+
+.section-innovation__header__nav__link,
+.section-innovation__header__nav__link a {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: #737373;
+  list-style: none;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+.section-innovation__header__conexion {
+  gap: 25px;
+}
+
+.section-innovation__header__conexion__bouton1 {
+  border: 0;
+  height: 52px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.btn-blue {
+  height: 52px;
+  gap: 15px;
+  border-radius: 5px;
+  opacity: 0px;
+  background: #23a6f0;
+  border: 0;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__btn-blue {
+  width: 214px;
+  height: 52px;
+}
+
+.company__btn-blue {
+  width: 193px;
+  height: 52px;
+}
+
+.section-innovation__header__conexion__bouton__text {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  text-align: right;
+}
+
+.btn-blue__image {
+  margin: 0;
+}
+
+.mobile-header,
+.mobile-header__image,
+.mobile-about__paragraph {
+  display: none;
+}
+
+.section-innovation__content {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-innovation__content__title1 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+  color: #737373;
+}
+
+.section-innovation__content__title2 {
+  font-family: Montserrat;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: #252b42;
+}
+
+.section-innovation__content {
+  margin-top: 30px;
+}
+
+.section-innovation__content__breadcrumb {
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-innovation__content__breadcrumb__link {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: #252b42;
+}
+
+.section-innovation__content__breadcrumb__vector-image {
+  width: 9px;
+  height: 16px;
+}
+
+.section-innovation__content__breadcrumb__text {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  color: #737373;
+}
+
+.section2__hot-category {
+  margin-left: 0px;
+}
+
+.section2__hot-category__images__image1 {
+  width: 598px;
+  height: 414.5px;
+}
+
+.section2__hot-category__images__image {
+  width: 300px;
+  height: 200px;
+}
+
+.section-meet-our-team {
+  margin-left: 110px;
+  margin-right: 110px;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin-top: 100px;
+}
+
+.section-meet-our-team__profiles {
+  margin: 0;
+  margin-bottom: 100px;
+  gap: 30px;
+}
+
+
+.section-meet-our-team__profiles__profile {
+  list-style: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
+
+.section-meet-our-team__profiles__profile__username {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+  color: #252b42;
+  margin: 20px;
+}
+
+.section-meet-our-team__profiles__profile__profession {
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: #737373;
+}
+
+.section-meet-our-team__profiles__profile__images {
+  gap: 20px;
+}
+
+.section-meet-our-team__title {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.20000000298023224px;
+  color: #252b42;
+  margin: 0px;
+  margin-bottom: 80px;
+}
+
+.section-start {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.section-innovation-faqs__content__items__item__title {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: #252b42;
+  margin: 0;
+}
+
+.section-innovation-faqs__content__items__item__text {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #737373;
+  margin: 0;
+  width: 430px;
+}
+
+.text2 {
+  width: 440px;
+  text-align: center;
+  margin: 30px;
+}
+
+
+.section-start__bouton {
+  width: Hug (186px) px;
+  height: Fixed (52px) px;
+  padding: 15px 40px 15px 40px;
+  border-radius: 5px;
+  background: #23a6f0;
+  border: 0;
+}
+
+.section-innovation__bouton__text {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.section-start__images {
+  margin-top: 10px;
+}
+
+.section-start__images__image {
+  margin: 15px;
+}
+
+.footer-top {
+  margin: 0;
+  margin-left: 110px;
+  margin-right: 200px;
+  justify-content: space-between;
+}
+
+.footer-top__title {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+}
+
+.footer-quater {
+  margin-top: 50px;
+  margin-left: 110px;
+  margin-right: 110px;
+  justify-content: space-between;
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+.footer-quater__lists {
+  flex-direction: column;
+  margin: 0;
+  gap: 20px;
+  padding: 0;
+}
+
+.footer-quater__lists__link {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #737373;
+}
+
+.link-title {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: #252b42;
+}
+
+.footer-quater__lists__link__form__email {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #737373;
+  background: #f9f9f9;
+  border: 1px solid #e6e6e6;
+  width: 120px;
+  height: 30px;
+  padding: 15px 24px 15px 20px;
+  gap: 47px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+form .footer-quater__lists__link__form__email:focus {
+  outline: 0;
+  border: 1px solid #e6e6e6;
+}
+
+.footer-quater__lists__link__form__bouton {
+  margin: 0;
+  width: 117px;
+  height: 62px;
+  padding: 15px 22.5px 15px 22.5px;
+  gap: 10px;
+  border-radius: 5px;
+  background: #23a6f0;
+  border: 1px solid #e6e6e6;
+  color: white;
+  margin-left: -8px;
+}
+
+.footer-bottom {
+  padding-left: 110px;
+  padding-right: 110px;
+  background: #fafafa;
+  height: 74px;
+  top: 414px;
+  align-items: center;
+}
+
+.footer-bottom__text {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #737373;
+}
+
+.footer__images {
+  display: flex;
+  gap: 20px;
+}
+
+.footer__images__image {
+  width: 24px;
+  height: 24px;
+  margin-top: 0px;
+}
+.display-none{
+  display: none;
+}
+
+@media all and (max-width: 767px) {
+  .section-innovation {
+    margin: 0;
+    padding: 0;
+  }
+  .section-innovation__header,
+  .section-work-with-us__image,
+  .section-innovation__company__content__title,
+  .section-innovation__company__content__text {
+    display: none;
+  }
+
+  .mobile-header__icons {
+    margin: 0;
+    padding: 0;
+  }
+  .mobile-header__icons__icon {
+    margin-left: 10px;
+  }
+
+  .mobile-header {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #f6f6f6;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 60px;
+    padding-top: 10px;
+  }
+  .mobile-header__image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-innovation__header__nav {
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 50px;
+    padding: 0;
+  }
+
+  .section-innovation__header__nav__link a {
+    display: inline;
+    font-size: 30px;
+  }
+
+  .mobile-header__top {
+    justify-content: space-between;
+  }
+
+  .section-innovation__content {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .section-innovation__content__title2 {
+    font-size: 30px;
+    line-height: 32px;
+  }
+
+  .section-innovation__title {
+    margin: 0;
+  }
+
+  .section2__hot-category__images{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section2__hot-category__images__image1 {
+ width: 330px;
+    height: 414.5px;
+  }
+  
+  .section2__hot-category__images__image {
+    width: 155px;
+    height: 167px;
+  }
+
+  .section-meet-our-team{
+    padding: 0;
+    margin: 0;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 1px solid red;
+  }
+
+  .section-meet-our-team__title{
+    width: 200px;
+    text-align: center;
+  }
+
+  .section-meet-our-team__profiles{
+    margin: 0;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .section-meet-our-team__profiles__photo{
+    width: 275px;
+    height: 250px;
+    object-fit: cover;
+    margin-top: 50px;
+  }
+
+    .section-pricing-faqs__title{
+      font-size: 30px;
+      width: 230px;
+      text-align: center;
+    }
+
+    .text2{
+      width: 280px;
+    }
+
+    .section-start__bouton{
+      padding: 10px;
+      width: 150px;
+    }
+
+    .section-start__images{
+      display: flex;
+    }
+
+  footer {
+    margin: 0;
+  }
+
+  .footer-top {
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: left;
+    padding: 0;
+    flex-direction: column;
+    justify-content: left;
+    align-items: l;
+    gap: 20px;
+  }
+
+  .footer-quater {
+    margin-left: 25px;
+    margin-right: 25px;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    padding: 0;
+    gap: 50px;
+  }
+
+  .footer-quater__lists {
+    margin: 0;
+    gap: 10px;
+    padding: 0;
+  }
+
+  .footer-quater__lists__link__form__email {
+    width: 135x;
+    height: 10px;
+  }
+
+  .footer-quater__lists__link__form__bouton {
+    width: 90px;
+    margin-left: -15px;
+    height: 44px;
+    padding: 0;
+  }
+
+  .footer-bottom {
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-bottom__text {
+    width: 200px;
+    margin: 0;
+    text-align: center;
+  }
+}
