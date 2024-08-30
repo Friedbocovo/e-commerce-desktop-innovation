@@ -182,13 +182,13 @@ li{
 }
 
 .section2__hot-category__images__image1 {
-  width: 598px;
-  height: 414.5px;
+  width: 700px;
+  height: 530px;
 }
 
 .section2__hot-category__images__image {
-  width: 300px;
-  height: 200px;
+  width: 310px;
+  height: 260px;
 }
 
 .section-meet-our-team {
@@ -432,7 +432,7 @@ form .footer-quater__lists__link__form__email:focus {
 .footer__images__image {
   width: 24px;
   height: 24px;
-  margin-top: 0px;
+  margin-top: 27px;
 }
 .display-none{
   display: none;
@@ -526,7 +526,6 @@ form .footer-quater__lists__link__form__email:focus {
     margin: 0;
     margin-left: 25px;
     margin-right: 25px;
-    border: 1px solid red;
   }
 
   .section-meet-our-team__title{
