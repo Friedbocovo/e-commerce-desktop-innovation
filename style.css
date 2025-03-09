@@ -506,6 +506,11 @@ form .footer-quater__lists__link__form__email:focus {
     margin-right: 25px;
   }
 
+  .section-innovation-faqs__title{
+    font-size:35px;
+    text-align:center;
+  }
+
   .section-innovation__content__title2 {
     font-size: 30px;
     line-height: 32px;
@@ -514,21 +519,28 @@ form .footer-quater__lists__link__form__email:focus {
   .section-innovation__title {
     margin: 0;
   }
-
   .section2__hot-category__images{
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    border:red solid 1px;]
   }
 
   .section2__hot-category__images__image1 {
- width: 330px;
-    height: 414.5px;
+    width: 275px;
+    height:  250px;
+    object-fit:cover;
   }
   
   .section2__hot-category__images__image {
-    width: 155px;
-    height: 167px;
+    width: 275px;
+    height: 250px;
+    object-fit:cover;
+ 
+  }
+  .bcv{
+  flex-direction:column;
   }
 
   .section-meet-our-team{
